@@ -26,6 +26,20 @@ The project includes several YAML files, each serving a specific purpose:
 
 ### Setup
 
-1. **Start Minikube**:
-   ```bash
-   minikube start
+1.  Start Minikube:
+
+    `minikube start`
+
+2.  Apply the YAML Configurations: Navigate to the project directory and apply the YAML files. For example:
+
+    `kubectl apply -f hello-world-deployment.yaml`
+
+    Repeat this step for each YAML file in the project.
+
+### Accessing the Hello World Application
+
+1.  Expose the Hello World Service:
+
+    `minikube service hello-world`
+
+    This command will open the hello-world application in your default browser.
