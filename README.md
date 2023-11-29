@@ -61,7 +61,7 @@ The network policies, as defined in [`example-network-policy.yaml`](https://gith
 
 This hands-on approach to testing will provide deeper insights into how network policies impact pod communication within and across namespaces.
 
-### Best Practices
+## Best Practices
 
 1. **Resource Limits and Requests**: In files like [`busybox.yaml`](https://github.com/jamesprawdz/kubernetes-hello-world/blob/main/busybox.yaml) and [`hello-world-deployment.yaml`](https://github.com/jamesprawdz/kubernetes-hello-world/blob/main/hello-world-deployment.yaml), resource requests and limits are specified for containers. This practice ensures efficient resource utilization and prevents any single application from consuming excessive resources.
 
@@ -75,6 +75,6 @@ This hands-on approach to testing will provide deeper insights into how network 
 
 6. **Namespace Usage**: The deployment of resources in specific namespaces (as seen in `busybox.yaml`) is a good practice for organizing and isolating resources within a Kubernetes cluster.
 
-### Conclusion
+## Conclusion
 
 This project serves as a practical guide to understanding and implementing fundamental Kubernetes concepts. By exploring and modifying the provided configurations, you can gain deeper insights into how Kubernetes works and how to manage applications effectively within a Kubernetes cluster.
