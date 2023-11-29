@@ -48,9 +48,11 @@ The project includes several YAML files, each serving a specific purpose:
 ### Testing RBAC and Network Policies
 
 #### Understanding RBAC:
+
 While the RBAC configuration in this project is basic, it serves as an introduction to Kubernetes' access control mechanisms. The RBAC roles and bindings in files like [`pod-service-reader-role.yaml`](https://github.com/jamesprawdz/kubernetes-hello-world/blob/main/pod-service-reader-role.yaml) and [`pod-service-reader-binding.yaml`](https://github.com/jamesprawdz/kubernetes-hello-world/blob/main/pod-service-reader-binding.yaml) illustrate the actions that are allowed. Although testing RBAC in this context is not critical, it's beneficial to understand how these configurations define and restrict access within the Kubernetes cluster.
 
 #### Testing Network Policies:
+
 The network policies, as defined in [`example-network-policy.yaml`](https://github.com/jamesprawdz/kubernetes-hello-world/blob/main/example-network-policy.yaml), are crucial for understanding traffic control within your Kubernetes environment. To effectively test these policies:
 
 1. **SSH into Different Pods**: Access the SSH shells of different pods across various namespaces.
