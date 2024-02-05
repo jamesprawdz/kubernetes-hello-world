@@ -1,8 +1,8 @@
-# Basic Kubernetes Project
+# Kubernetes Playground
 
 ## Introduction
 
-Welcome to my Basic Kubernetes Project! This project is designed to provide a hands-on experience with Kubernetes, using Minikube as a local environment. It covers essential Kubernetes concepts such as multiple namespaces, network policies, Role-Based Access Control (RBAC), liveness and readiness probes, and includes a restricted account configuration for best practices.
+Welcome to my Kubernetes Playground ! This project is designed to provide a hands-on experience with Kubernetes, using Minikube as a local environment. It covers essential Kubernetes concepts such as multiple namespaces, network policies, Role-Based Access Control (RBAC), liveness and readiness probes, and includes a restricted account configuration for best practices.
 
 ## Project Structure
 
