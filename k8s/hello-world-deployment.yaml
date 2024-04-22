@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
         - name: hello-world
-          image: nginxdemos/hello
+          image: jamesprawdz/hello-world:v1
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
           resources:
@@ -40,3 +41,10 @@ spec:
             timeoutSeconds: 2
             periodSeconds: 5
             successThreshold: 1
+          volumeMounts: # Add this section
+            - name: html-volume
+              mountPath: /usr/share/nginx/html
+      volumes: # Add this section
+        - name: html-volume
+          configMap:
+            name: html-configmap
